@@ -56,11 +56,7 @@ export default class RecommendedMoviesScreen extends Component {
     const { data } = this.state;
     return (
       <View style={styles.container}>
-        <FlatList
-          data={data}
-          keyExtractor={this.keyExtractor}
-          renderItem={this.renderItems}
-        />
+        
       </View>
     );
   }
